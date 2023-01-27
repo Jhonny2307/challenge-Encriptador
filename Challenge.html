@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+        <title>Encriptador</title>
+    </head>
+    <body>
+        <header>
+            <img class="logo" src="./assets/Logo.png" alt="logo de alura">
+        </header>
+        <main>
+            <section>
+                <textarea class="text-area" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+                <div>
+                    <h6 class="informacion">Solo letra minuscula y sin acentos</h6>
+                    <p id="logoInfo" src="./assets/Vector.png"></p>
+                </div>
+                <div class="botones"></div>
+                <button class="btn-encriptar">Encriptar</button>
+                <button class="btn-desencriptar">Desencriptar</button>
+            </section>
+            <section>
+                <textarea class="mensaje" cols="20" rows="10"></textarea>
+                <div class="rectangulo">
+                    <button class="copiar">Copiar</button>
+                    <img id="muneco" src="./assets/Muñeco.png" alt="muneco">
+                    <p id="ningunMensaje">Ningun Mensaje fue encontrado</p>
+                    <p id="textoAbajo">Ingresa el texto que desees encriptar o desencriptar</p>
+                </div>
+            </section>
+        </main>
+    </body>
+    <script src="./challenge.js"></script>
+</html>
